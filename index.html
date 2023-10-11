@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1>Analizador de texto</h1>
+    </header>
+
+
+    <div id="contenido">
+      <ul>
+        <li data-testid="word-count" class="metric">Número de palabras:</li>
+        <li data-testid="character-count" class="metric">Número de caracteres:</li>
+        <li data-testid="character-no-spaces-count" class="metric">Número de caracteres sin espacios y signos de
+          puntuación:</li>
+        <li data-testid="number-count" class="metric">Conteo de números:</li>
+        <li data-testid="number-sum" class="metric">Suma total de números:</li>
+        <li data-testid="word-length-average" class="metric">Longitud media de las palabras:</li>
+      </ul>
+    </div>
+
+    <textarea name="user-input"></textarea><br />
+
+    <div>
+      <button id="reset-button" type="button">LIMPIAR</button>
+
+    </div>
+    <footer>
+      <hr />
+      <p>
+      Creado por Rocío Juárez Ramírez
+      </p>
+    </footer>
+
+    <script src="index.js" type="module"></script>
+
+  </main>
+</body>
+
+</html>
