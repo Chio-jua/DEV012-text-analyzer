@@ -1,9 +1,9 @@
-ANALIZADOR DE TEXTO
+*TEXT ANALYZER
 
-Descripción
+*Descripción
 Aplicación web que permite visibilizar distintas métricas a partir de la entrada de un texto. Contabiliza el número de palabras, números, caracteres, caracteres sin espacios y signos de puntuación. También permite realizar una suma del total de números escritos y calcular la longitud media de las palabras.
 
-Métricas y funcionalidades
+***Métricas y funcionalidades
 
 * Recuento de palabras : la aplicación puede contar el número de
 palabras en el texto de entrada y la muestra a la usuaria.
