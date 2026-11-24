@@ -1,5 +1,4 @@
 TEXT ANALYZER
-Rule-based linguistic and lexical metrics analyzer for text tokenization, word/character density, and numeric extraction.
 
 Aplicación web que permite visibilizar distintas métricas a partir de la entrada de un texto. Contabiliza el número de palabras, números, caracteres, caracteres sin espacios y signos de puntuación. También permite realizar una suma del total de números escritos y calcular la longitud media de las palabras.
 
